@@ -66,17 +66,17 @@
 ### 架构设计
 
 - 合理分层
-  src/main/java
-  ├── common # 通用模块
-  │ ├── config # 配置类
-  │ ├── exception # 异常处理
-  │ └── utils # 工具类
-  ├── controller # Web 层
-  ├── service # 业务层
-  ├── mapper # 数据访问层
-  ├── model # 数据模型
-  ├── job # 定时任务
-  └── aop # 切面编程
+src/main/java
+├── common # 通用模块
+│ ├── config # 配置类
+│ ├── exception # 异常处理
+│ └── utils # 工具类
+├── controller # Web 层
+├── service # 业务层
+├── mapper # 数据访问层
+├── model # 数据模型
+├── job # 定时任务
+└── aop # 切面编程
 
 ## 快速上手
 
